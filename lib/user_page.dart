@@ -84,6 +84,9 @@ class _UserPageState extends State<UserPage> {
                   const ListTile(
                 leading: Icon(Icons.logout,color: Colors.indigo,),
                 title: Text('Logout')),
+                const ListTile(
+                leading: Icon(Icons.menu_book_outlined, color: Colors.indigo,),
+                title: Text('Challenges and Rewards')),
             ],
           ),
         ),
